@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="405" height="275" viewBox="0 0 405 275">
+  <defs>
+    <filter id="Rectangle_8180" x="0" y="0" width="405" height="275" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="tesla_motors_logo_with_white_bg" transform="translate(-567.5 -13403.5)">
+    <g transform="matrix(1, 0, 0, 1, 567.5, 13403.5)" filter="url(#Rectangle_8180)">
+      <rect id="Rectangle_8180-2" data-name="Rectangle 8180" width="330" height="200" rx="20" transform="translate(37.5 37.5)" fill="#fff"/>
+    </g>
+    <g id="tesla_motors_logo" transform="translate(702 13431)">
+      <g id="TESLA" transform="translate(0 172.313)">
+        <g id="g8" transform="translate(115.711 0.016)">
+          <path id="polyline10" d="M266.6,403.28v10.666h3.42v-7.1H282.47v7.1h3.418V403.3L266.6,403.28" transform="translate(-266.072 -396.295)" fill="#e82127"/>
+          <path id="path12" d="M269.083,392.465h13.152a4.854,4.854,0,0,0,3.568-3.535H265.515a4.872,4.872,0,0,0,3.568,3.535" transform="translate(-265.515 -388.93)" fill="#e82127"/>
+        </g>
+        <g id="g14" transform="translate(90.036 0.024)">
+          <path id="path16" d="M228.7,406.6a4.891,4.891,0,0,0,3.008-3.475H216.365l.01-14.173-3.439.01V406.6H228.7" transform="translate(-212.936 -388.948)" fill="#e82127"/>
+        </g>
+        <g id="g18" transform="translate(59.966 0.029)">
+          <path id="path20" d="M155.75,392.431H167.9a5.325,5.325,0,0,0,3.744-3.473h-19.3v10.424h15.792v3.658l-12.388.01a6.91,6.91,0,0,0-4.409,3.566l1-.018H171.53V395.916H155.75v-3.485" transform="translate(-151.341 -388.958)" fill="#e82127"/>
+        </g>
+        <g id="g22" transform="translate(30.729 0)">
+          <path id="path24" d="M95.031,392.434h13.148a4.85,4.85,0,0,0,3.57-3.536H91.461a4.875,4.875,0,0,0,3.57,3.536" transform="translate(-91.461 -388.898)" fill="#e82127"/>
+          <path id="path26" d="M95.031,406.758h13.148a4.841,4.841,0,0,0,3.57-3.535H91.461a4.864,4.864,0,0,0,3.57,3.535" transform="translate(-91.461 -396.25)" fill="#e82127"/>
+          <path id="path28" d="M95.031,421.474h13.148a4.849,4.849,0,0,0,3.57-3.535H91.461a4.873,4.873,0,0,0,3.57,3.535" transform="translate(-91.461 -403.803)" fill="#e82127"/>
+        </g>
+        <g id="g30" transform="translate(0 0.009)">
+          <path id="path32" d="M28.524,388.95a4.907,4.907,0,0,0,3.561,3.512H37.62l.282.111v13.966h3.456V392.573l.314-.111h5.539a4.976,4.976,0,0,0,3.546-3.512v-.034H28.524v.034" transform="translate(-28.524 -388.916)" fill="#e82127"/>
+        </g>
+      </g>
+      <g id="T" transform="translate(6.106 30)">
+        <path id="path35" d="M113.953,200.312l17.323-97.117c16.512,0,21.72,1.8,22.472,9.172,0,0,11.076-4.117,16.663-12.479a122.738,122.738,0,0,0-43.7-10.524l-12.781,15.519.029,0L101.172,89.361a122.725,122.725,0,0,0-43.7,10.525c5.582,8.362,16.662,12.479,16.662,12.479.756-7.368,5.958-9.172,22.359-9.184l17.462,97.132" transform="translate(-52.052 -77.404)" fill="#e82127"/>
+        <path id="path37" d="M108.234,72.274A143.041,143.041,0,0,1,166.66,83.963a47.241,47.241,0,0,0,3.468-7.14,169.866,169.866,0,0,0-61.9-12.025A169.845,169.845,0,0,0,46.34,76.822a59.633,59.633,0,0,0,3.466,7.14,143.027,143.027,0,0,1,58.426-11.689h0" transform="translate(-46.34 -64.797)" fill="#e82127"/>
+      </g>
+    </g>
+  </g>
+</svg>

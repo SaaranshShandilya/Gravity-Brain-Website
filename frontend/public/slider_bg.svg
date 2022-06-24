@@ -1,0 +1,17 @@
+<svg id="slider_bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1000" viewBox="0 0 1920 1000">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.923" gradientTransform="matrix(0.471, 0.882, -0.445, 0.238, 0.487, -0.06)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#63a4fe"/>
+      <stop offset="1" stop-color="#2f4ff8"/>
+    </radialGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_7836" data-name="Rectangle 7836" width="1920" height="970" fill="url(#radial-gradient)"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_1" data-name="Rectangle 1" width="1920" height="1000" fill="#062fdd"/>
+  <g id="Group_5284" data-name="Group 5284">
+    <g id="Group_5283" data-name="Group 5283" clip-path="url(#clip-path)">
+      <path id="Path_10291" data-name="Path 10291" d="M0,0V775.074S850.2,1410.2,1920,387.537V0Z" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>
