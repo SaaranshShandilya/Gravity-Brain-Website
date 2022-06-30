@@ -11,13 +11,13 @@ const Terms = () => {
     <div>
         <div className='grid grid-cols-2 items-center bg-blue-600 py-4'>
             <div>
-            <Link to='/'><img src={gb} alt='logo' className='md:h-16 h-10 ml-2 md:ml-20'></img></Link>
+            <Link to='/'><img src={gb} alt='logo' className='lg:h-16 h-10 ml-2 lg:ml-20'></img></Link>
             </div>
-            <div className='text-right mb-4 md:mr-12 '>
-            <Link to='/olympiad2022'><button className='md:px-6 md:py-2 px-4 py-2 text-sm md:text-lg bg-white mt-6 mr-8 text-blue-500 font-semibold rounded-lg'>Olympiad 2022</button></Link>
+            <div className='text-right mb-4 lg:mr-12 '>
+            <Link to='/olympiad2022'><button className='lg:px-6 lg:py-2 px-4 py-2 text-sm lg:text-lg bg-white mt-6 mr-8 text-blue-500 font-semibold rounded-lg'>Olympiad 2022</button></Link>
             </div>
         </div>
-        <div className='md:mx-24 mx-4'>
+        <div className='lg:mx-24 mx-4'>
             <h1 className='text-3xl mt-6 font-bold'>AGREEMENT TO TERMS</h1>
             <p className='mt-3 leading-12'>These Terms & Conditions (“Terms”) of (a) use of our website www.gravitybrain.com (“Website”), or any products or services in connection with the Website/products (“Services”) or (b) any modes of registrations or usage of products, are between GravityBrain Challenge (“Company/GB/We/Us/Our”) and its users (“User/You/Your”).</p>
             <p className='mt-3 leading-12'>Please read the Terms and Conditions and the Privacy Policy of the Company with respect to registration with us, the use of the Website, Services and products carefully before using the Website, Services or products. In the event of any discrepancy between the Terms and any other policies with respect to the Website or Services or products, the provisions of the Terms shall prevail.</p>

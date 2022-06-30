@@ -17,7 +17,7 @@ const Svg = () => {
     }
   return (
 
-    <motion.svg  xmlns="http://www.w3.org/2000/svg" className='ml-4 mt-4 h-10 md:h-16' viewBox="0 0 326 80">
+    <motion.svg  xmlns="http://www.w3.org/2000/svg" className='ml-4 mt-4 h-10 lg:h-16' viewBox="0 0 326 80">
     <g id="gravity_brain_logo" transform="translate(1511 -230)">
       <rect id="Rectangle_7830" data-name="Rectangle 7830" width="326" height="80" transform="translate(-1511 230)" fill="#929292" opacity="0"/>
       <g id="GravityBrain_logo" transform="translate(-1505.575 234.882)">

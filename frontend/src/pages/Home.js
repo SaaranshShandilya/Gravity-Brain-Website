@@ -38,6 +38,8 @@ import Faq from '../components/Faq'
 import Footer from '../components/Footer'
 const Home = () => {
 
+    
+
         const vantaRef = useRef()
         useEffect(() =>{
             const vantaEffect = NET({
@@ -50,7 +52,7 @@ const Home = () => {
                 scale: 1.00,
                 scaleMobile: 1.00,
                 backgroundColor: 0x1c1c1e,
-                points: 6.00,
+                points: 3.00,
     
             })
             window.scroll(0,0)
@@ -63,23 +65,23 @@ const Home = () => {
         <Sliders/>
         {/* nurture program section start */}
         <div> 
-        <h1 className='text-center md:my-16 my-10 pb-10 md:text-5xl text-3xl font-bold '>
-            <span className='text-blue-600'>Nurture Programs</span> Key Offerings
+        <h1 data-aos="fade-in" className='text-center lg:my-16 my-10 pb-10 lg:text-5xl text-3xl font-bold '>
+            <span className='text-blue-600'>Nurture Program</span> Key Offerings
         </h1>
-        <div className='md:grid md:grid-cols-3 text-center md:mx-32 mx-4 gap-8 space-y-24 md:space-y-0 pb-12'>
+        <div data-aos="fade-in" className='lg:grid lg:grid-cols-3 text-center lg:mx-32 mx-4 gap-8 space-y-24 lg:space-y-0 pb-12'>
             <div className='border-2 relative rounded-lg shadow-xl hover:border-blue-600 hover:shadow-blue-600'>
-                <img src={pb} alt='pbicon'  className='mx-auto h-36 absolute bottom-2/3 right-1/3' ></img>
-                <h1 className='pt-28 pb-8 text-2xl font-semibold'>Project Based Learning</h1>
-                <p className='text-lg  pb-6'>We make children into superchildren</p>
+                <img src={pb} alt='pbicon'  className='mx-auto h-36 -mt-16' ></img>
+                <h1 className='pt-8 pb-8 text-2xl font-semibold'>Project Based Learning</h1>
+                <p className='text-lg  pb-6'>We make children into super children</p>
             </div>
-            <div className='border-2 relative rounded-lg shadow-xl hover:border-blue-600 hover:shadow-blue-600'>
-                <img src={stl} alt='pbicon'  className='mx-auto h-36 absolute bottom-2/3 right-1/3' ></img>
-                <h1 className='pt-28 pb-8 text-2xl font-semibold '>STEM learning aligned Curriculam</h1>
-                <p className='text-lg  pb-6'>Unleash your child's hidden talents today</p>
+            <div data-aos="fade-in" className='border-2 relative rounded-lg shadow-xl hover:border-blue-600 hover:shadow-blue-600'>
+                <img src={stl} alt='pbicon'  className='mx-auto h-36 -mt-16' ></img>
+                <h1 className='pt-8 pb-8 mx-2 text-2xl font-semibold '>STEM learning aligned Curriculum</h1>
+                <p className='text-lg mx-2 pb-6'>Unleash your child's hidden talents today</p>
             </div>
-            <div className='border-2 relative rounded-lg shadow-xl hover:border-blue-600 hover:shadow-blue-600'>
-                <img src={ce} alt='pbicon'  className='mx-auto h-36 absolute bottom-2/3 right-1/3' ></img>
-                <h1 className='pt-28 pb-8 text-2xl font-semibold'>Created by Experts(HBS, IIT,IIM)</h1>
+            <div data-aos="fade-in" className='border-2 relative rounded-lg shadow-xl hover:border-blue-600 hover:shadow-blue-600'>
+                <img src={ce} alt='pbicon'  className='mx-auto h-36 -mt-16' ></img>
+                <h1 className='pt-8 pb-8 text-2xl font-semibold'>Created by Experts(HBS, IIT,IIM)</h1>
                 <p className='text-lg  pb-6'>Cheering for the leaders of tomorrow</p>
             </div>
         </div>
@@ -89,20 +91,20 @@ const Home = () => {
         </div>
         {/* nurture program section end */}
         <div ref={vantaRef}>
-            <h1 className='text-white text-4xl pb-8 text-center pt-8 font-bold'>Advantages of <span className='text-blue-600 '>Project</span> Based <span className='text-blue-600'>Learning</span></h1>
+            <h1 className='text-white text-3xl mx-2 lg:text-5xl pb-8 text-center pt-8 font-bold'>Advantages of <span className='text-blue-600 '>Project</span> Based <span className='text-blue-600'>Learning</span></h1>
             <Slider2/>
         </div>
         <div>
-            <h1 className='my-10 font-bold text-4xl text-center'><span className='text-blue-600'>Glimpse of our</span> Projects</h1>
+            <h1 className='my-10 font-bold lg:text-5xl text-3xl text-center'><span className='text-blue-600'>Glimpse of our</span> Projects</h1>
             <Slider_photo/>
         </div>
-        <div className='md:mx-28 pb-24'>
-            <h1 className='text-3xl md:text-5xl font-bold text-center my-12'>The <span className='text-blue-600'>Learning</span> Journey</h1>
+        <div className=' pb-24'>
+            <h1 className='text-3xl lg:text-5xl font-bold text-center my-12'>The <span className='text-blue-600'>Learning</span> Journey</h1>
             <img src={lt} alt='Lifetime'></img>
         </div>
         <div>
-            <h1 className='text-5xl font-bold text-center my-12'>A Year at <span className='text-blue-600'>Gravity Brain</span></h1>
-            <div className='grid md:grid-cols-4 grid-cols-2  mx-auto text-center'>
+            <h1 className='lg:text-5xl text-3xl font-bold text-center my-6 lg:my-12'>A Year at <span className='text-blue-600'>Gravity Brain</span></h1>
+            <div className='grid lg:grid-cols-4 grid-cols-2  mx-auto text-center'>
                 <div className='mt-6'>
                     <img src={ci} alt='classes_icon' className='mx-auto h-36'></img>
                     <p className='mt-4 text-3xl font-bold text-blue-600'>104+</p>
@@ -126,12 +128,12 @@ const Home = () => {
             </div>
         </div>
         <div>
-            <p className='text-md text-center mt-12 py-4 md:mx-20 rounded-lg bg-orange-100'>Connect with our expert to learn more <span className='font-bold'>- WhatsApp - Phone - Email</span></p>
+            <p className='text-lg text-center mt-12 py-4 px-2 lg:mx-20 rounded-lg bg-orange-100'>Connect with our expert to learn more <span className='font-bold'>- WhatsApp - Phone - Email</span></p>
         </div>
         <div>
-            <p className='text-center text-3xl my-8 font-bold'>Our Advisors come from around the World </p>
-            <p className='my-8 text-center text-md'>Here's a glimpse of some the minds at work behind helping your child learn better</p>
-            <div className='md:grid md:grid-cols-5 md:mx-20 mx-12 md:space-y-0 space-y-8 gap-8'>
+            <p className='text-center lg:text-4xl mx-2 text-2xl my-8 font-bold'>Our advisors come from all around the world </p>
+            <p className='my-8 mx-2 text-center text-lg'>Here's a glimpse of some the minds at work behind helping your child learn better</p>
+            <div className='lg:grid lg:grid-cols-5 lg:mx-20 mx-12 lg:space-y-0 space-y-8 gap-8'>
                 <div className='text-center border-2 rounded-xl py-4 '>
                     <img src={ad1} alt='advisor1' className='h-36 mx-auto'></img>
                     <p className='my-3 text-blue-500 text-xl font-bold'>Saugata Banerji</p>
@@ -161,13 +163,13 @@ const Home = () => {
                     <p>Intel Corporation</p>
                 </div>
             </div>
-            <p className='text-center mt-6 md:mx-40'>Gravity Brain projects are not aligned to academic curriculum. They are carefully curated and aligned to the child's age, specific mental capabilities and executed under the watchful supervision of global educators, early learning educational experts and global leaders.</p>
+            <p className='text-center lg:text-lg text-md mx-4 mt-6 lg:mx-40'>Gravity Brain projects are not aligned to academic curriculum. They are carefully curated and aligned to the child's age, specific mental capabilities and executed under the watchful supervision of global educators, early learning educational experts and global leaders.</p>
         </div>
 
         <div className='mt-12 text-center'>
-            <p className='text-4xl font-bold mt-12 mb-6 '>Our Top <span className='text-blue-500'>Educators</span></p>
-            <p className='my-5 mx-4'>Not just the expert panel - even our educators are masters in their fields from some of the most prestigious global schools and specially trained in this form of teaching:</p>
-            <div className='md:grid md:grid-cols-4 md:mx-20 mx-12 md:space-y-0 space-y-8 gap-8'>
+            <p className='lg:text-5xl text-3xl font-bold mt-12 mb-6 '>Our Top <span className='text-blue-500'>Educators</span></p>
+            <p className='my-5 lg:text-lg text-md mx-4'>Not just the expert panel - even our educators are masters in their fields from some of the most prestigious global schools and specially trained in this form of teaching:</p>
+            <div className='lg:grid lg:grid-cols-4 lg:mx-20 mx-12 lg:space-y-0 space-y-8 gap-8'>
                 <div className='text-center border-2 rounded-xl py-4 '>
                     <img src={ed1} alt='advisor1' className='h-36 mx-auto'></img>
                     <p className='my-3 text-blue-500 text-xl font-bold'>VASU PARWATE</p>
@@ -194,8 +196,8 @@ const Home = () => {
         </div>
 
         <div>
-            <p className='text-4xl my-12 text-center font-bold'>Top contributors for <span className='text-blue-500'>Nurture Program</span></p>
-            <div className='grid grid-cols-5 md:gap-4 gap-2 md:mx-44'>
+            <p className='lg:text-5xl text-3xl mx-2 my-12 text-center font-bold'>Top contributors for <span className='text-blue-500'>Nurture Program</span></p>
+            <div className='grid grid-cols-5 lg:gap-4 gap-2 lg:mx-44'>
                 <div>
                     <img src={google}></img> 
                 </div>
@@ -212,7 +214,7 @@ const Home = () => {
                     <img src={spacex}></img> 
                 </div>
             </div>
-            <div className='grid grid-cols-4 md:gap-4 gap-2 md:mx-44'>
+            <div className='grid grid-cols-4 lg:gap-4 gap-2 lg:mx-44'>
                 <div>
                     <img className='h-40 ' src={bits}></img> 
                 </div>
@@ -228,20 +230,20 @@ const Home = () => {
             </div>
         </div>
 
-        <div style={{backgroundImage: `url(${process.env.PUBLIC_URL+ "/webinar_videos_bg.svg"})`,}}>
-            <h1 className='py-20  text-center text-4xl font-bold'>Webinar Videos</h1>
-            <div className='md:grid md:grid-cols-4 md:space-y-0 space-y-4 pb-12 gap-4 mx-20'>
+        <div className='-ml-2' style={{backgroundImage: `url(${process.env.PUBLIC_URL+ "/webinar_videos_bg.svg"})`,}}>
+            <h1 className='py-12  text-center lg:text-5xl text-3xl font-bold'>Webinar Videos</h1>
+            <div className='lg:grid lg:grid-cols-4 lg:space-y-0 space-y-4 pb-12 gap-4 mx-20'>
                 <div>
-                    <img src={t1} className='rounded-lg h-60'></img>
+                    <img src={t1} className='rounded-lg mx-auto h-60'></img>
                 </div>
                 <div>
-                    <img src={t2} className='rounded-lg h-60'></img>
+                    <img src={t2} className='rounded-lg mx-auto h-60'></img>
                 </div>
                 <div>
-                    <img src={t3} className='rounded-lg h-60'></img>
+                    <img src={t3} className='rounded-lg mx-auto h-60'></img>
                 </div>
                 <div>
-                    <img src={t4} className='rounded-lg h-60'></img>
+                    <img src={t4} className='rounded-lg mx-auto h-60'></img>
                 </div>
             </div>
         </div>

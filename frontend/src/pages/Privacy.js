@@ -11,14 +11,14 @@ const Privacy = () => {
     <div>
         <div className='grid grid-cols-2 items-center bg-blue-600 py-4'>
             <div>
-            <Link to='/'><img src={gb} alt='logo' className='md:h-16 h-10 ml-2 md:ml-20'></img></Link>
+            <Link to='/'><img src={gb} alt='logo' className='lg:h-16 h-10 ml-2 lg:ml-20'></img></Link>
             </div>
-            <div className='text-right mb-4 md:mr-12 '>
-            <Link to='/olympiad2022'><button className='md:px-6 md:py-2 px-4 py-2 text-sm md:text-lg bg-white mt-6 mr-8 text-blue-500 font-semibold rounded-lg'>Olympiad 2022</button></Link>
+            <div className='text-right mb-4 lg:mr-12 '>
+            <Link to='/olympiad2022'><button className='lg:px-6 lg:py-2 px-4 py-2 text-sm lg:text-lg bg-white mt-6 mr-8 text-blue-500 font-semibold rounded-lg'>Olympiad 2022</button></Link>
             </div>
         </div>
 
-        <div className='md:mx-24 mx-4'>
+        <div className='lg:mx-24 mx-4'>
             <h1 className='text-3xl mt-6 font-bold'>Privacy & Policy</h1>
             <p className='mt-3'>GravityBrain values your trust. In order to honor that trust, GravityBrain adheres to ethical standards in gathering, using, and safeguarding any information you provide.</p>
             <h1 className='text-xl mt-4 font-bold'>Introduction</h1>

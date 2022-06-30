@@ -52,7 +52,7 @@ const SliderPhoto = () => {
     
   };
   return (
-    <div className='md:mx-32'>
+    <div className='lg:mx-32'>
       <Slider {...settings}>
         <div>
           <img src={bc1} alt='byte_car_1'></img>
